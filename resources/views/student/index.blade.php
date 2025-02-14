@@ -67,6 +67,7 @@
             <td>{{ $student->prodi }}</td>
             <td>{{ $student->angkatan }}</td>
             <td>{{ $student->alamat }}</td>
+            <td>{{ $student->name }}</td>
             <td>
                 <form action="{{ route('student.destroy', $student->id) }}" method="POST">
                     @csrf
